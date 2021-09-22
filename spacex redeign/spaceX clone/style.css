@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 400vh;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url('./images/main1.webp');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.container{
+    padding: 0 56px;
+}
+header nav{
+    padding-top: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+}
+header nav .branding a img{
+    width: 237px;
+}
+header nav ul{
+    margin-left: -423px;
+    padding-top: 10px;
+}
+header nav ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: -22px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+header nav .shop{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+header nav .shop a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: -20px;
+}
+.connect{
+    bottom: 132px;
+    left: 70px;
+    position: absolute;
+    color: #fff;
+}
+.connect button{
+    padding: 15px 49px;
+    border: 3px solid #fff;
+    background: transparent;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s ease all;
+    cursor: pointer;
+}
+.connect button:hover{
+    background: #fff;
+    color: #000;
+}
+.connect h1{
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+.connect p{
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-bottom: 8px;
+}
+section.main1{
+    height: 100vh;
+    width: 100%;
+    background: url(./images/main2.webp);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
